@@ -41,9 +41,33 @@
     margin: 10px auto;
     max-width: 330px;
 }
+.card .links .fab{
+transition: color 0.5s;
+border-radius: 50%;
+}
+.card .links .fab:hover{
+    color: #016fff;
+}
 .links a{
     color:white;
     font-size:40px;
     padding:10px;
-    border-radius: 50%;
+}
+
+.btn{
+    padding: 10px 25px;
+    border: 2px solid rgba(255,255,255,0.3);
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.btn:hover{
+    background: #016fff;
+    border: 2px solid #016fff;
+    
 }
