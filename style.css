@@ -68,7 +68,7 @@ border-radius: 50%;
     color: white;
     font-weight: 600;
     text-decoration: none;
-    transition: color 0.5s;
+    transition: background 0.5s;
 }
 
 .btn:hover{
